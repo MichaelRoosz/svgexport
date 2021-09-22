@@ -1,6 +1,6 @@
 {
   "name": "@michaelheerklotz/svgexport",
-  "version": "0.4.2",
+  "version": "0.4.2-chrome-93",
   "description": "Node.js module and command-line tool for exporting SVG to PNG and JPEG.",
   "author": "Ali Shakiba",
   "contributors": [
@@ -26,17 +26,17 @@
     "url": "https://github.com/MichaelRoosz/svgexport.git"
   },
   "dependencies": {
-    "async": "^3.2.0",
-    "puppeteer": "^5.5.0",
-    "debug": "^4.3.1"
+    "async": "^3.2.1",
+    "debug": "^4.3.2",
+    "puppeteer": "^10.4.0"
   },
   "main": "index.js",
   "bin": {
     "svgexport": "bin/index.js"
   },
   "devDependencies": {
-    "mocha": "*",
-    "expect.js": "*"
+    "expect.js": "*",
+    "mocha": "*"
   },
   "scripts": {
     "test": "mocha"
