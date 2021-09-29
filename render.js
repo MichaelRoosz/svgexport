@@ -19,7 +19,12 @@ async function renderSvg(commands, done, stdout) {
 
   var browser = await puppeteer.launch({
     headless: true,
-    args: ['--no-sandbox', '--font-render-hinting=none']
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-gpu',
+      '--font-render-hinting=none'
+    ]
   });
 
   // Run each command in parallel.

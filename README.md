@@ -105,3 +105,9 @@ Copyright (c) 2016 Ali Shakiba
 Available under the MIT license
 
 *Keywords: svg, export, rasterize, converter, png, jpeg, jpg, cli, command-line, inkscape, illustrator, coreldraw*
+
+
+## Changelog
+
+### 0.5.0
+* Fixed for docker and/or alpine
