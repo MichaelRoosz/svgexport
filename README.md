@@ -108,6 +108,8 @@ Available under the MIT license
 
 
 ## Changelog
+### 0.5.1
+* Updated puppeteer
 
 ### 0.5.0
 * Fixed for docker and/or alpine
