@@ -108,6 +108,9 @@ Available under the MIT license
 
 
 ## Changelog
+### 0.5.2
+* Update to puppeteer v21
+
 ### 0.5.1
 * Updated puppeteer
 
