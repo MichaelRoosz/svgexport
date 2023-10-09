@@ -18,7 +18,7 @@ async function renderSvg(commands, done, stdout) {
   commands = Array.isArray(commands) ? commands : [ commands ];
 
   var browser = await puppeteer.launch({
-    headless: true,
+    headless: 'new',
     args: [
       '--no-sandbox',
       '--disable-setuid-sandbox',

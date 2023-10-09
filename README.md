@@ -109,6 +109,9 @@ Available under the MIT license
 
 ## Changelog
 
+### 0.5.4
+* Use new Chrome headless mode
+
 ### 0.5.3
 * Update dependencies
 
