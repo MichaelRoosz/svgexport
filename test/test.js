@@ -1,8 +1,8 @@
-var fs = require('fs');
-var p = require('path');
-var expect = require('expect.js');
-var child_process = require('child_process');
-var svgexport = require('../');
+const fs = require('fs');
+const p = require('path');
+const expect = require('expect.js');
+const child_process = require('child_process');
+const svgexport = require('../');
 
 // TODO: compare exported files
 
@@ -136,7 +136,7 @@ function resolve() {
   return p.resolve(__dirname, p.join.apply(p, arguments));
 }
 
-var output = {
+const output = {
   help : /^\sUsage:/,
   invalidargs : /^Error: Invalid usage!\n?$/,
   invalidsvg : /^Error: Unable to load file \(Error: net::ERR_FILE_NOT_FOUND at .*missing\.svg\): .*missing\.svg\n*$/,

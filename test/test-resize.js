@@ -1,9 +1,9 @@
-var resize = require('../resize');
-var expect = require('expect.js');
+const resize = require('../resize');
+const expect = require('expect.js');
 
 describe('Resize', function() {
   it('width', function() {
-    var output = resize({
+    const output = resize({
       width : 1,
       height : 1
     }, {
@@ -15,7 +15,7 @@ describe('Resize', function() {
   });
 
   it('both', function() {
-    var output = resize({
+    const output = resize({
       width : 1,
       height : 1
     }, {
@@ -28,7 +28,7 @@ describe('Resize', function() {
   });
 
   it('pad', function() {
-    var output = resize({
+    const output = resize({
       width : 1,
       height : 1
     }, {
